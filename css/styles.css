@@ -1,0 +1,18 @@
+/*Navigation*/
+
+li {
+display:inline-block;
+}
+a:link {
+font-family: 'Trade Winds', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+/*Links*/
+
+h1 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 80px;
+    text-align: center;
+}
