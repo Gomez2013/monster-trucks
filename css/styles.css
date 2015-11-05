@@ -1,21 +1,49 @@
+
+/*Heading*/
+
+Heading {
+ background: orange;
+  border: 20px black solid;
+  border-radius: 150px;
+  height:200px;
+  width:200px;
+}
 /*Navigation*/
 
 li {
 display:inline-block;
 }
+
 a:link {
 font-family: 'Trade Winds', cursive;
-    font-size: 20px;
+    font-size: 26px;
     text-decoration: none;
-    padding: 0 20px;
+    padding:20px;
+    color:rgb(118, 29, 34);
+  
 }
+
 /*Links*/
 
 h1 {
     font-family: 'Trade Winds', cursive;
     font-size: 80px;
     text-align: center;
+      letter-spacing: .2em;
 }
-body {
-background: red;
+#first {
+
+}
+ 
+body{
+background: rgb(78, 75, 90);
+    
+}
+
+p {
+font-family: 'Orbitron', sans-serif;
+}
+
+blockquote {
+text-align:left; 
 }
