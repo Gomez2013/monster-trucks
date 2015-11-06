@@ -7,6 +7,7 @@ Header {
     background-width: auto; 
     height: 500px;
     display: block;
+    margin-bottom: 20px;
 
  
 }
@@ -15,7 +16,7 @@ Header {
 li {
 display:inline-block;
     background: url(../img/truck%201.jpg);
-    width: auto;
+
 }
 
 a:link {
@@ -42,8 +43,16 @@ h1 {
     padding-left: 15px;
 }
 
+h2 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 35px;
+    text-shadow:2px 2px #AA190E;
+} 
+
 /*Images*/
- 
+.third {
+width: 500px;
+}
 
 body{
 background: rgb(78, 75, 90);
@@ -56,6 +65,7 @@ width: 100%;
 
 p {
 font-family: 'Orbitron', sans-serif;
+   line-height: 2em;
 }
 
 blockquote {
