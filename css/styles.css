@@ -8,7 +8,7 @@ Header {
     height: 500px;
     display: block;
     margin-bottom: 20px;
-
+position: relative;
  
 }
 /*Navigation*/
@@ -26,10 +26,13 @@ font-family: 'Trade Winds', cursive;
     padding: 200px 20px 0 20px;
     color:rgb(118, 29, 34);
     text-align: left;
-
-   
-  
 }
+a:hover{
+     font-size: 35px;
+    font: rgb(118, 29, 34);
+    }
+   
+
 
 /*Links*/
 
@@ -59,15 +62,32 @@ background: rgb(78, 75, 90);
     
 }
 
-#container {
+.container {
 width: 100%;
 }
-
+.second {
+    padding-top: 30px;
+}
+/*Typography*/
 p {
 font-family: 'Orbitron', sans-serif;
    line-height: 2em;
 }
+.extreme {
+    text-align: center;
+     font-family: 'Trade Winds', cursive;
+    font-size: 150px;
+    color:#AA190E;
+   position:absolute;
+    padding-left: 260px;
+    padding-bottom: 700px;
+}
+footer {
+    font-family: 'Orbitron', sans-serif;
+    text-align: right;
+}
 
 blockquote {
-text-align:left; 
+text-align:center;
+    letter-spacing: 5px;
 }
